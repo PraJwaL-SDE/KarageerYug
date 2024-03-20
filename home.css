@@ -1,0 +1,214 @@
+/* Global Styles */
+
+   /* Global Styles */
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10;
+    background-color: #f9fafc; /* Change background color here */
+}
+label {
+    font-size: 18px; /* Increase font size */
+    font-weight: bold; /* Make font bold */
+}
+
+.job-role-container-title{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.description {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.language select {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+}
+
+.login button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login button:hover {
+    background-color: #45a049;
+}
+
+.scrollable-container {
+    width: 600px; /* Adjust width as needed */
+    overflow-x: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+.horizontal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100px;
+    height: 80px;
+}
+
+/* Styles for items in horizontal list */
+.horizontal-list li {
+    padding: 10px 20px;
+    background-color: #bcdafa;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Styles for last item in horizontal list */
+.horizontal-list li:last-child {
+    margin-right: 0;
+}
+
+.location-selection h2 {
+    margin-top: 0;
+  text-align: left;
+    display: flex;
+    justify-content: left;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: #b2d8ec;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card input[type="radio"] {
+    display: none;
+}
+
+.card label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+.job-role-item{
+    width: 238px;
+    background-color: #ffffff; /* Background color of the div */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow properties: offset-x | offset-y | blur-radius | color */
+    border-radius: 8px; /* Rounded corners for aesthetic appeal */
+    padding: 5px; /* Padding to separate content from the edges */
+    margin: 5px;
+    
+}
+.job-role-item img{
+    width: 238px;
+    height: 140px;
+}
+.job-title{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.job-role-item-detail-container{
+    padding: 12px 18px;
+}
+.vacancy-details{
+    font-size: 15px;
+    line-height: 19px;
+    color: #414B5D;  
+    font-weight: 400;
+}
+.job-roles-contaienr{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom p {
+    margin: 20px 0 0;
+}
+
+
